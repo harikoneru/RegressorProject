@@ -21,5 +21,6 @@ setup(
     author='Hari Koneru',
     author_email='harikoneru1@gmail.com',
     install_requires=get_requirements('requirements.txt'),
-    packages=find_packages()
+    packages=find_packages(),
+    license='MIT',
 )
